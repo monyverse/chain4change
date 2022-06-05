@@ -1,7 +1,7 @@
 // import React, { useState, useEffect, ErrorBoundary } from 'react';
 
 // /* ERC71 based Solidity Contract Interface */
-// import { ChangeNFTNFT721JSON, ChangeNFT1155JSON } from '../utils/contracts';
+// import { ChangeNFT721JSON, ChangeNFT1155JSON } from '../utils/contracts';
 
 // /* NFT.Storage import for creating an IPFS CID & storing with Filecoin */
 // import { NFTStorage, File } from 'nft.storage';

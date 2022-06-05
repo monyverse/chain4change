@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "ChangeNFTNFT721",
-  "sourceName": "contracts/ChangeNFTNFT721.sol",
+  "contractName": "ChangeNFT721",
+  "sourceName": "contracts/ChangeNFT721.sol",
   "abi": [
     {
       "inputs": [],
@@ -192,7 +192,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct ChangeNFTNFT721.myNFT[]",
+          "internalType": "struct ChangeNFT721.myNFT[]",
           "name": "",
           "type": "tuple[]"
         }

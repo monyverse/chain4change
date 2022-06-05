@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 /* ERC71 based Solidity Contract Interface */
-import { ChangeNFTNFT721JSON, ChangeNFT1155JSON } from './utils/contracts';
+import { ChangeNFT721JSON, ChangeNFT1155JSON } from './utils/contracts';
 
 /* NFT.Storage import for creating an IPFS CID & storing with Filecoin */
 import { NFTStorage, File } from 'nft.storage';
@@ -79,14 +79,14 @@ const Home = () => {
   //We should be returning the data from this so we can update in time.
   const { runContractFunction: fetchNFTCollection, data: nftCollectionData } = useApiContract({
     functionName: 'getNFTCollection',
-    abi: contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFTNFT721JSON.abi,
+    abi: contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFT721JSON.abi,
     address: contractOptions.contractAddress[contractChoice],
     chain: contractOptions.chainName
   });
   // Fetch the number of NFTs remaining
   const { runContractFunction: getRemainingMintableNFTs, data: remainingNftData } = useApiContract({
     functionName: 'getRemainingMintableNFTs',
-    abi: contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFTNFT721JSON.abi,
+    abi: contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFT721JSON.abi,
     address: contractOptions.contractAddress[contractChoice],
     chain: contractOptions.chainName
   });
@@ -161,7 +161,7 @@ const Home = () => {
       const signer = provider.getSigner();
       const connectedContract = new ethers.Contract(
         contractOptions.contractAddress[contractChoice],
-        contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFTNFT721JSON.abi,
+        contractChoice === 'erc1155' ? ChangeNFT1155JSON.abi : ChangeNFT721JSON.abi,
         signer
       );
       connectedContract.on('NewChangeNFTMinted', (sender, tokenId, tokenURI, remainingNFTs) => {

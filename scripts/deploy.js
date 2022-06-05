@@ -4,8 +4,8 @@ async function main() {
   await nft1155.deployed();
   console.log('1155 Contract deployed to:', nft1155.address);
 
-  const ChangeNFTNFT721 = await hre.ethers.getContractFactory('ChangeNFTNFT721');
-  const nft721 = await ChangeNFTNFT721.deploy();
+  const ChangeNFT721 = await hre.ethers.getContractFactory('ChangeNFT721');
+  const nft721 = await ChangeNFT721.deploy();
   await nft721.deployed();
   console.log('721 Contract deployed to:', nft721.address);
 
