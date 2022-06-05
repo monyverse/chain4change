@@ -148,8 +148,8 @@ contract ChangeNFTHack is ERC721URIStorage {
 
     /* tokenURI
     {
-        "name": "Their name + Filecoin @ NFTHack 2022"
-        "description": "NFT created for EthGlobal NFTHack 2022 and limited to 100 tokens"
+        "name": "Roles"
+        "description": "Metaverse generated profiles for talent attestation"
         "image": //IPFS pinned file content CID (can be any mime type)
         "other data like version, strenth, etc....": ""
     }
@@ -159,7 +159,7 @@ contract ChangeNFTHack is ERC721URIStorage {
     event RemainingMintableNFTChange(uint256 remainingMintableNFTs);
 
     //This sets our collection details. Anything minted by this contract will fall under this header
-    constructor() ERC721 ("EthGlobal NFTHack2022", "Filecoin Starter NFTs") {
+    constructor() ERC721 ("Metaverse", "Hack2Earn Game") {
         console.log("This is my NFT contract");
         maxNFTs=100; //set a limit to number of nft's that are mintable
     }
