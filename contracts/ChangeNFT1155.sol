@@ -34,8 +34,8 @@ contract ChangeNFT1155 is ERC1155 {
 
     /* tokenURI Specification
     {
-        "name": "Their name + Filecoin @ NFTHack 2022"
-        "description": "NFT created for EthGlobal NFTHack 2022 and limited to 100 tokens"
+        "name": "Their name + Role in the Metaverse"
+        "description": "Metaverse generated profiles for talent attestation"
         "image": //IPFS pinned file content CID (can be any mime type)
         "other data like version, strenth, etc....": ""
     }
