@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 
 /* ERC71 based Solidity Contract Interface */
-import { FilecoinNFTHackJSON } from '../utils/contracts';
+import { ChangeNFTHackJSON } from '../utils/contracts';
 
 // destructure further to just take the function name in the contract. Rest is the same
 //{contractAddress, contractABI, methodName, rpcURL, ...props}
@@ -30,7 +30,7 @@ export function useContractFetch() {
     );
     const connectedContract = new ethers.Contract(
       process.env.REACT_APP_CONTRACT_ADDRESS,
-      FilecoinNFTHackJSON.abi,
+      ChangeNFTHackJSON.abi,
       provider
     );
 
@@ -69,7 +69,7 @@ export function useContractFetch() {
     // const signer = provider.getSigner();
     const connectedContract = new ethers.Contract(
       CONTRACT_ADDRESS,
-      filecoinNFTHack.abi,
+      ChangeNFTHack.abi,
       provider
     );
 

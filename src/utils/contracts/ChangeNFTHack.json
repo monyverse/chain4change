@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "FilecoinNFTHack",
-  "sourceName": "contracts/FilecoinNFTHack.sol",
+  "contractName": "ChangeNFTHack",
+  "sourceName": "contracts/ChangeNFTHack.sol",
   "abi": [
     {
       "inputs": [],
@@ -199,7 +199,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct FilecoinNFTHack.myNFT[]",
+          "internalType": "struct ChangeNFTHack.myNFT[]",
           "name": "",
           "type": "tuple[]"
         }
