@@ -2,15 +2,16 @@ import { companyLogo, twitterLogo } from '../assets';
 
 export const headerDetails = {
   name: 'The Graph Change NFTs',
-  title: '100 personalised NFTs for Filecoin @ The Graph 2022',
+  name: 'Join the Hack2Earn Metaverse',
+  title: 'Find your top Job | Recruit the best talent',
   imageAlt: 'The Graph NFT Logo',
-  href: 'https://hackathons.filecoin.io/',
+  href: 'https://',
   logo: companyLogo
 };
 
 export const authorDetails = {
-  name: 'DeveloperAlly',
-  href: 'https://twitter.com/developerally',
+  name: 'Chain4Change',
+  href: 'https://chain4change.',
   imageAlt: 'Twitter Logo',
   logo: twitterLogo
 };
