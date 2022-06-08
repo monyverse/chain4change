@@ -8,8 +8,15 @@ export const headerDetails = {
   logo: companyLogo
 };
 
+export const authorDetails = {
+  name: 'Chain4Change Team',
+  href: 'https://chain4change.xyz',
+  imageAlt: 'C4C Logo',
+  logo: companyLogo
+};
+
 export const mainDetails = {
-  imageAlt: 'Filecoin Foundation Logo',
-  href: 'https://filecoin.io/build',
+  imageAlt: 'Chain4Change Logo',
+  href: 'https://chain4change.xyz',
   logo: companyLogo
 };
