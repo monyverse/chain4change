@@ -13,7 +13,7 @@ export const INITIAL_TRANSACTION_STATE = {
 
 export const NFT_METADATA_ATTRIBUTES = {
   nftName: 'Change NFT 2022',
-  description: 'NFT created for Change Workshop 2022 and limited to 100 personalised tokens',
+  description: 'Mint NFT to initiate a new game',
   fileName: `ChangeNFT.svg`,
   fileType: 'image/svg+xml',
   traits: {}

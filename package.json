@@ -1,5 +1,5 @@
 {
-  "name": "Chain4ChangeMetaverse",
+  "name": "chain4changemetaverse",
   "version": "0.1.2",
   "private": true,
   "dependencies": {
@@ -64,6 +64,23 @@
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.8",
     "hardhat": "^2.9.7",
-    "prettier": "^2.6.2"
-  }
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.1"
+  },
+  "description": "FIT.XYZ: A multi-chain  Live2Earn Metaverse Game",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monyverse/chain4change.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monyverse/chain4change/issues"
+  },
+  "homepage": "https://github.com/monyverse/chain4change#readme"
 }
