@@ -9,14 +9,14 @@ export const headerDetails = {
 };
 
 export const authorDetails = {
-  name: 'Chain4Change Team',
-  href: 'https://chain4change.xyz',
-  imageAlt: 'C4C Logo',
-  logo: companyLogo
+  name: 'DeveloperAlly',
+  href: 'https://twitter.com/developerally',
+  imageAlt: 'Twitter Logo',
+  logo: twitterLogo
 };
 
 export const mainDetails = {
-  imageAlt: 'Chain4Change Logo',
-  href: 'https://chain4change.xyz',
+  imageAlt: 'Filecoin Foundation Logo',
+  href: 'https://filecoin.io/build',
   logo: companyLogo
 };
