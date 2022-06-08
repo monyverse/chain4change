@@ -29,10 +29,6 @@ module.exports = {
     avax_testnet: {
       url: process.env.REACT_APP_AVAX_TEST_RPC_URL,
       accounts: [process.env.METAMASK_PRIVATE_KEY]
-    },
-    eth_mainnet: {
-      url: process.env.REACT_APP_ETH_MAINNET_RPC_URL,
-      accounts: [process.env.METAMASK_PRIVATE_KEY]
     }
   },
   etherscan: {
