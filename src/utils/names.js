@@ -1,7 +1,6 @@
 import { companyLogo, twitterLogo } from '../assets';
 
 export const headerDetails = {
-  name: 'The Graph Change NFTs',
   name: 'Join the Hack2Earn Metaverse',
   title: 'Find your top Job | Recruit the best talent',
   imageAlt: 'The Graph NFT Logo',
