@@ -1,4 +1,4 @@
-FIT.XYZ: A multi-chain  Live2Earn Metaverse Game
+chain4change.xyz: A multi-chain  Live2Earn Metaverse Game
 
 ## Overview
 
